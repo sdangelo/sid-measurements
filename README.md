@@ -5,7 +5,7 @@ SID chip measurements
 * input: sweep.wav - 10 seconds long logarithmic sweep from 20 Hz to 20 kHz, with 2 s silence before and after, sample rate 48 kHz
 * file names: *cutoff*-*resonance*.wav or bypass-*volume*.wav, filter mode according to parent folder name
 
-The measure.bas program in ... was used to setup the filter and the audio I/O was taken from the A/V port using the DIY breakout connector described [here](https://www.orastron.com/asid#c64).
+The measure.bas program in the [A-SID repo](https://github.com/sdangelo/asid) was used to setup the filter and the audio I/O was taken from the A/V port using the DIY breakout connector described [here](https://www.orastron.com/asid#c64).
 
 ## 8580
 
@@ -19,4 +19,4 @@ TBD
 
 ## Analysis
 
-See ...
+IRs can be extracted using the getIR.m GNU Octave script in the [A-SID repo](https://github.com/sdangelo/asid).
