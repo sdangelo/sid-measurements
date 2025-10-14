@@ -1,6 +1,3 @@
-> [!WARNING]
-> This repository is archived. Development continues at: https://git.orastron.com/orastron/sid-measurements. See you there.
-
 # sid-measurements
 
 SID chip measurements
